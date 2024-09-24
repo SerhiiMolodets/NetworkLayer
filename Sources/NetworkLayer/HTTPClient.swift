@@ -11,7 +11,7 @@ public protocol HTTPClient {
     ) async throws -> T
 }
 
-extension HTTPClient {
+public extension HTTPClient {
     func sendRequest<T: Decodable>(
         endpoint: Endpoint,
         useCache: Bool = true,

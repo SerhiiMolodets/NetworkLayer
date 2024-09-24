@@ -3,7 +3,7 @@
 
 import Foundation
 
-enum NetworkError: Error {
+public enum NetworkError: Error {
     case requestFailed(description: String)
     case invalidData
     case responseUnsuccessful(description: String)
