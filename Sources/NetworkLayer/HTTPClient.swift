@@ -3,7 +3,7 @@
 
 import Foundation
 
-protocol HTTPClient {
+public protocol HTTPClient {
     func sendRequest<T: Decodable>(
         endpoint: Endpoint,
         useCache: Bool,
