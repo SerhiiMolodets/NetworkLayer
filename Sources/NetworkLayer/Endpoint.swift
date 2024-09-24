@@ -15,7 +15,7 @@ public protocol Endpoint {
     var apiKey: String? { get }
 }
 
-extension Endpoint {
+public extension Endpoint {
     var scheme: String {
         return "https"
     }
