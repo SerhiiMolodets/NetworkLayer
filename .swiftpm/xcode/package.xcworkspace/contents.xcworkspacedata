@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "group:../../Package.swift">
+   </FileRef>
+   <Group
+      location = "group:../../Sources"
+      name = "Sources">
+      <Group
+         location = "group:NetworkLayer"
+         name = "NetworkLayer">
+         <FileRef
+            location = "group:HTTPClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RequestMethod.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NetworkError.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Endpoint.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:../../Tests"
+      name = "Tests">
+      <Group
+         location = "group:NetworkLayerTests"
+         name = "NetworkLayerTests">
+         <FileRef
+            location = "group:NetworkLayerTests.swift">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
